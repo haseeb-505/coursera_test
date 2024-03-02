@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exercise Front Page David Chu's China Bistro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/assignment_2.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2tz0v18u5CRZU5CejSTQ9SGdA6b7aP6A1Q" crossorigin="anonymous"> <!--glyphicon chicken, beef, sushi-->
+
+</head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default"> <!--navigation block-->
+
+      <div class="container">
+
+        <div class="navbar-header"><!--header division, includes the logo, title-->
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+          <!--title here-->
+          <div class="navbar-brand">
+            <a href="index.html">
+              <h1>Food LLC</h1>
+            </a>
+            <p>
+              <img src="images/star-k-logo.png" alt="Kosher certification">
+              <span>Kosher Certified</span>
+            </p>
+            
+          </div> <!--title ends here-->
+
+          <!--placing the toogled button-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Navigation Toogle</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            
+          </button> 
+        </div><!--header division ends here-->
+
+        <!--toogle content; collapsable navigation-->
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="index.html">
+                <span class="fas fa-drumstick-bite"></span><br class="hidden-xs">
+                Chicken
+              </a>
+            </li>
+
+            <li>
+              <a href="index.html">
+                <span class="fas fa-steak"></span><br class="hidden-xs">
+                Beef
+              </a>
+            </li>
+
+            <li>
+              <a href="index.html">
+                <span class="fas fa-sushi"></span><br class="hidden-xs">
+                Sushi
+              </a>
+            </li>
+
+            <li id="phone" class="hidden-xs">
+              <a href="tel:xxx-xxx-xxxx">
+                <span>xxx-xxx-xxxx</span><br class="hidden-xs">
+              </a>
+              <div>*We deliver</div>
+            </li>
+
+          </ul> <!--nav list ends here-->
+          
+        </div> <!--collapsable nav ends here-->
+      </div> <!--container ends here--> 
+    </nav> <!-- navigation block ends here-->
+
+  </header> <!--header ends here-->
+
+  <!--***call button*****-->
+
+  <div id="call-btn"  class="visible-xs">
+    <a class="btn" href="tel:xxx-xxx-xxxx">
+      <span class="glyphicon glyphicon-earphone"></span>
+      xxx-xxx-xxxx
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+  <!--Main Content-->
+  <div id="main-content"  class="container">
+    <!--hotel pic-->
+    <div class="jumbotron">
+      <img src="images/jumbotron_768.jpg" alt="Picture of resturant" class="img-responsive visible-xs">
+    </div> 
+
+    <!--3 rows of content-->
+    <div id="home-tiles" class="row">
+      <div id="our-menu">Our Menu</div>
+      <div class="col-md-4 col-sm-6 col-xs-12"> <!--first tile-->
+        <a href="#">
+          <div id="chicken-tile">
+             <div class="title">Chicken</div>
+             <p>
+               Chicken dishes encompass a diverse and delicious spectrum in global cuisine. From the aromatic spices of Indian Chicken Curry and the creamy richness of Italian Chicken Alfredo to the smoky flavors of Middle Eastern Chicken Shawarma, each culture contributes unique and enticing variations. Classic preparations like Roast Chicken, with its simplicity and succulence, and the tangy Filipino Chicken Adobo showcase the versatility of this poultry. Whether it's the fiery kick of Buffalo Chicken Wings in American fare or the savory perfection of Japanese Chicken Teriyaki, chicken proves itself a versatile canvas for culinary creativity. These dishes not only reflect regional tastes but also highlight the universal appeal of chicken as a protein enjoyed worldwide.
+             </p>
+          </div>
+        </a> 
+      </div><!--1st tile ends here-->
+
+
+      <div class="col-md-4 col-sm-6 col-xs-12"> <!--first tile-->
+        <a href="#">
+          <div id="beef-tile">
+            <div class="title">Beef</div>
+            <div class="content">
+             <p>
+               Beef dishes span a diverse culinary landscape, offering a range of flavors and preparations appreciated globally. From the hearty comfort of a traditional American Beef Stew, with its slow-cooked tenderness and rich broth, to the savory delight of a well-seasoned and grilled Argentinean Asado, beef takes center stage in various culinary traditions. Italian cuisine boasts the iconic Bistecca alla Fiorentina, a thick T-bone steak seasoned simply and grilled to perfection. In Asian cuisine, the bold and spicy flavors of a Thai Beef Salad or the umami-packed Japanese Gyudon, featuring thinly sliced beef simmered in a soy-based broth, showcase the versatility of beef. Whether indulging in the smoky allure of a Texas-style BBQ Brisket or the aromatic spices of an Indian Beef Curry, beef dishes reflect the cultural diversity and universal appreciation for this protein across the globe.
+             </p>
+           </div>
+          </div>
+        </a>
+      </div><!--1st tile ends here-->
+
+
+      <div class="col-md-4 col-sm-12 col-xs-12"> <!--first tile-->
+        <a href="#">
+          <div id="sushi-tile">
+            <div class="title">Sushi</div>
+             <p>
+               Sushi, a culinary art form originating in Japan, has captivated taste   buds worldwide with its exquisite flavors and meticulous presentation. Traditional Japanese sushi showcases the mastery of sushi chefs who skillfully craft bite-sized delights using vinegared rice, fresh fish like tuna and salmon, and seaweed. Nigiri, a form of sushi where small portions of fish rest atop hand-pressed rice, exemplifies the simplicity and elegance of this cuisine. The colorful and artistic arrangement of ingredients in Maki rolls, wrapped in seaweed or soy paper, adds a delightful visual dimension. Sashimi, thin slices of raw fish served without rice, highlights the pure, unadulterated taste of premium seafood. With diverse variations like California rolls, tempura rolls, and fusion creations, sushi has evolved to cater to different palates while maintaining its commitment to the delicate balance of flavors and textures that define this internationally beloved dish.
+             </p>
+          </div>
+        </a>
+      </div><!--1st tile ends here-->
+
+
+    </div><!--row ends here-->
+
+
+
+    
+  </div><!--main content ends here-->
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
